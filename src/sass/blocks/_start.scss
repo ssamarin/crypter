@@ -1,0 +1,32 @@
+.start {
+    padding: 128px 0 0;
+    &__wrapper {
+        text-align: center;
+    }
+    &__descr {
+        margin-bottom: 21px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #777E91;
+    }
+    &__title {
+        margin-bottom: 34px;
+        font-size: 40px;
+        line-height: 120% ;
+        letter-spacing: -0.01em;
+        color: #23262F;
+    }
+    &__btn {
+        padding: 16px 24px;
+        width: 182px;
+        height: 48px;
+        border-radius: 90px;
+        font-size: 15px;
+        line-height: 100%;
+        color: #23262F;
+        border: 2px solid #E6E8EC;
+    }
+}

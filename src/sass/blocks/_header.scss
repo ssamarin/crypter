@@ -1,0 +1,43 @@
+.header {
+    padding: 20px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__links {
+        font-size: 14px;
+        line-height: 114%;
+        color: $main-color;
+        &_light {
+            color: #777E91;
+        }
+    }
+    &__menu {
+        display: flex;
+    }
+    &__content {
+        display: flex;
+        
+    }
+    &__search {
+        width: 256px;
+        height: 40px;
+        border-radius: 8px;
+        border: 2px solid #E6E8EC;
+    }
+}
+
+.menu  {
+    
+}
+
+
+
+.header__content {
+}
+.search {
+}
+.bell {
+}
+.header__btn {
+}
