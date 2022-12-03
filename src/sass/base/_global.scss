@@ -1,3 +1,4 @@
+@import '../base/variebles';
 html, body {
     height: 100%;
     font-family: 'DM Sans', sans-serif;
@@ -39,8 +40,12 @@ button {
     font-size: 14px;
     line-height: 114%;
     text-align: center;
+    transition: 0.7s all;
     color: #FCFCFD;
-    background: #3772FF;
+    background: $blue;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 .btn__white {
     padding: 12px 16px;
@@ -50,6 +55,11 @@ button {
     border-radius: 90px;
     font-size: 13px;
     line-height: 114%;
-    color: #23262F;
+    transition: 0.7s all;
     border: 2px solid #E6E8EC;
+    color: $main-color;
+    background: #fff;
+    &:hover {
+        box-shadow:0 4px 30px rgba(0,0,0,.3);
+    }
 }
