@@ -1,0 +1,91 @@
+.header {
+    padding: 20px 0 28px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links {
+        display: flex;
+        align-items: center;
+    }
+    &__menu {
+        margin-top: 18px;
+        display: flex;
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        column-gap: 24px;
+    }
+    &__search {
+        padding: 10px 12px 10px 16px;
+        width: 256px;
+        height: 40px;
+        border-radius: 8px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        background: url(../icons/search.svg) no-repeat;
+        background-position: 225px;
+        border: 2px solid #E6E8EC;
+        color: $light-color;
+    }
+    &__notification {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            top: -5px;
+            right: -8px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: $green;
+    }
+    }
+    &__btns {
+        display: flex;
+        column-gap: 12px
+    }
+    &__btn {
+        width: 137px;
+        height: 40px;
+        &_blue {
+            width: 80px;
+            height: 40px;
+        }
+    }
+}
+
+.menu {
+    &__link {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 114%;
+        transition: 0.7s all;
+        color: $main-color;
+        &:hover {
+            padding-bottom: 6px;
+            text-decoration: none;
+            border-bottom: 1.5px solid $main-color;
+            color: $main-color;
+        }
+        &_light {
+            color: $light-color;
+            &:hover {
+                padding-bottom: 6px;
+                text-decoration: none;
+                border-bottom: 1.5px solid $light-color;
+                color: $light-color;
+            }
+        }
+    }
+
+}
+
+
+
+
+
