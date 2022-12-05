@@ -1,0 +1,143 @@
+.promo {
+    padding-top: 128px;
+    &__wrapper {
+        display: flex;
+        column-gap: 128px;
+    }
+    &__title {
+        margin-bottom: 32px;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #23262F;
+    }
+    &__people {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__total {
+        margin-bottom: 40px;
+        padding: 32px 60px;
+        width: 352px;
+        height: 320px;
+        box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+        border-radius: 24px;
+        text-align: center;
+        border: 2px solid #E6E8EC;
+        background: #FCFCFD;
+    }
+    &__btn {
+        width: 352px;
+        height: 48px;
+        &-1 {
+            margin-bottom: 8px;
+        }
+    }
+}
+
+
+.creator {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    &__circle {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico.jpg) center center / cover no-repeat;
+    }
+    &__status {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        color: $light-color;
+    }
+    &__name {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171% ;
+        color: #23262F;
+    }
+}
+    
+.instant__price {
+    min-width: 160px;
+    display: flex;
+    column-gap: 8px;
+    &-circle {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: url(../img/avatars/user.png) center center / cover no-repeat;
+    }
+    &-info {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        color: #777E91;
+    }
+    &-price {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        color: #23262F;
+    }
+}
+
+
+.total {
+    &__head {
+        margin-bottom: 10px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: $main-color;
+    }
+    &__price {
+        margin-bottom: 6px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 117%;
+        letter-spacing: -0.02em;
+        color: #141416;
+    }
+    &__convert {
+        margin-bottom: 38px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 133%;
+        color: $light-color;
+    }
+    &__ending {
+        margin-bottom: 8px;
+    }
+    &__timer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+    }
+}
+
+.timer {
+    &__block {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: $light-color;
+    }
+    &__number {
+        font-size: 32px;
+        line-height: 125%;
+        letter-spacing: -0.01em;
+        color: #141416;
+    }
+}
