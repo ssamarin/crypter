@@ -1,0 +1,44 @@
+button {
+    border: none;
+}
+
+.btn__blue {
+    padding: 12px 16px;
+    border-radius: 90px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    transition: 0.7s all;
+    color: #FCFCFD;
+    background: $blue;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.btn__white {
+    padding: 12px 16px;
+    gap: 12px;
+    border-radius: 90px;
+    font-size: 13px;
+    line-height: 114%;
+    transition: 0.7s all;
+    border: 2px solid #E6E8EC;
+    color: $main-color;
+    background: #fff;
+    &:hover {
+        box-shadow:0 4px 30px rgba(0,0,0,.3);
+    }
+}
+
+.btn__green {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid $green;
+    color: $green;
+}
