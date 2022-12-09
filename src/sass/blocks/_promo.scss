@@ -41,21 +41,20 @@
     display: flex;
     column-gap: 8px;
     align-items: center;
+    font-family: 'Poppins';
     &__circle {
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        background: url(../img/avatars/enrico.jpg) center center / cover no-repeat;
+        background: url(../img/avatars/enrico/enrico.jpg) center center / cover no-repeat;
     }
     &__status {
-        font-family: 'Poppins';
         font-weight: 400;
         font-size: 12px;
         line-height: 167%;
         color: $light-color;
     }
     &__name {
-        font-family: 'Poppins';
         font-weight: 500;
         font-size: 14px;
         line-height: 171% ;
@@ -67,6 +66,7 @@
     min-width: 160px;
     display: flex;
     column-gap: 8px;
+    font-family: 'Poppins';
     &-circle {
         height: 40px;
         width: 40px;
@@ -74,14 +74,12 @@
         background: url(../img/avatars/user.png) center center / cover no-repeat;
     }
     &-info {
-        font-family: 'Poppins';
         font-weight: 400;
         font-size: 12px;
         line-height: 167%;
         color: #777E91;
     }
     &-price {
-        font-family: 'Poppins';
         font-weight: 500;
         font-size: 14px;
         line-height: 171%;

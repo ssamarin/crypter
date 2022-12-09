@@ -1,0 +1,245 @@
+.store {
+    padding: 44px 0 132px;
+    font-family: 'Poppins';
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__library {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: -20px;
+            width: 1px;
+            height: 512px;
+            background-color: #E6E8EC;
+        }
+    }
+}
+
+.big {
+    &__img {
+        margin-bottom: 24px;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr {
+        display: flex;
+        column-gap: 16px;
+    }
+    &__circle {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/enrico.jpg) center center / cover no-repeat;
+    }
+    &__title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 133%;
+        color: $main-color;
+    }
+    &__subtitle {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        color: #353945;
+    }
+    &__btn-header {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        color: $light-color;
+    }
+    &__btn {
+        width: 68px;
+        height: 26px;
+    }
+}
+
+.library {
+    &__item {
+        display: flex;
+        column-gap: 24px;
+        &-img {
+            img {
+                border-radius: 12px;
+            }
+        }
+        &-descr {
+            max-width: 165px;
+        }
+        &-title {
+            margin-bottom: 8px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: $main-color;
+        }
+        &-author {
+            margin-bottom: 16px;
+            display: flex;
+            column-gap: 11px;
+        }
+    }
+    &__circle-1 {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/small/enrico_purpure_small.png) center center / cover no-repeat;
+    }
+    &__circle-2 {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/small/enrico_yellow_small.jpg) center center / cover no-repeat;
+    }
+    &__circle-3 {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/small/enrico_purpure_small.png) center center / cover no-repeat;
+    }
+    &__counter {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: $light-color;
+    }
+    &__btn {
+        width: 98px;
+        height: 32px;
+        border-radius: 90px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 114%;
+        transition: 0.7s all;
+        border: 2px solid #E6E8EC;
+        background-color: #FCFCFD;
+        color: $main-color;
+        &:hover {
+            border: none;
+            background-color: $blue;
+            color: #fff;
+        }
+        &_green {
+            width: 66px;
+            height: 26px;
+        }
+    }
+}
+
+.creators {
+    &__wrapper {
+        margin-bottom: 32px;
+    }
+    &__item {
+        display: flex;
+        column-gap: 16px;
+        align-items: center;
+        width: 224px;
+        height: 95px;
+        border-bottom: 1px solid #E6E8EC;
+        &_last {
+            border-bottom: none;
+        }
+    }
+    &__title {
+        margin-bottom: 24px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 167%;
+        color: $light-color;
+    }
+    &__btn {
+        width: 158px;
+        height: 40px;
+        font-family: 'DM Sans';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 114%;
+        border-radius: 90px;
+        transition: 0.7s all;
+        border: 2px solid #E6E8EC;
+        background: #FCFCFD;
+        color: $main-color;
+        &:hover {
+            border: none;
+            background: $blue;
+            color: #fff;
+        }
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        color: $main-color;
+    }
+    &__price {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 167%;
+        color: #353945;
+    }
+    &__circle {
+        position: relative;
+        &::after {
+            content: "2";
+            position: absolute;
+            top: -9px;
+            left: 0;
+            width: 24px;
+            height: 24px;
+            font-weight: 600;
+            font-size: 12px;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 167%;
+            border: 2px solid #fff;
+            background-color: $main-color;
+            color: #FCFCFD;
+        }
+    }
+    &__circle-1 {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/large/enrico_purpure.png) center center / cover no-repeat;
+    }
+    &__circle-2 {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: url(../img/avatars/anita.png) center center / cover no-repeat;
+    }
+    &__circle-3 {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/large/enrico_pink.jpg) center center / cover no-repeat;
+    }
+    &__circle-4 {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico/large/enrico_yellow.jpg) center center / cover no-repeat;
+    }
+}
+
+.currency {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: $light-color;
+}
