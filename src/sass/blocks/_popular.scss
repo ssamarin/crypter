@@ -1,0 +1,121 @@
+.popular {
+    font-family: 'Poppins';
+    background: #F4F5F6;
+    &__title {
+        margin-bottom: 64px;
+        max-width: 127px;
+        font-family: 'DM Sans';
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: -0.01em;
+        color: $main-color;
+    }
+    &__light {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 133%;
+        color: $light-color;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 32px;
+    }
+    &__card {
+        padding: 24px;
+        width: 198px;
+        height: 247px;
+        text-align: center;
+        border-radius: 16px;
+        background: #FCFCFD;
+        &-header {
+            padding-bottom: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-height: 72px;
+            border-bottom: 1px solid #E6E8EC;
+        }
+    }
+}
+
+.card-header {
+    &__number {
+        padding: 2px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 4px;
+        width: 51px;
+        height: 24px;
+        border-radius: 24px;
+        background: $blue;
+        &_2 {
+            background: #9757D7;
+        }
+        &_3 {
+            background: $green;
+        }
+        &_4 {
+            background: $main-color;
+        }
+        &_5 {
+            background: $light-color;
+        }
+    }
+    &__icons {
+        display: flex;
+        column-gap: 8px;
+    }
+}
+
+.number {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 167%;
+    color: #FCFCFD;
+}
+
+.card-body {
+    &__author {
+        margin: 24px auto 16px;
+        position: relative;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: url(../img/avatars/enrico.png) center center / cover no-repeat;
+        &_2 {
+            background: url(../img/avatars/odel.png) center center / cover no-repeat;
+        }
+        &_3 {
+            background: url(../img/avatars/marlee.png) center center / cover no-repeat;
+        }
+        &_4 {
+            background: url(../img/avatars/payton.png) center center / cover no-repeat;
+        }
+        &_5 {
+            background: url(../img/avatars/payton_buc.png) center center / cover no-repeat;
+        }
+        &::after {
+            content: url("../img/popular/diamond.png");
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+        }
+    }
+    &__name {
+        margin-bottom: 2px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        color: $main-color;
+    }
+    &__price {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 167%;
+        color: $main-color;
+    }
+}
+
