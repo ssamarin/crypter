@@ -1,0 +1,121 @@
+.hotBid {
+    padding: 136px 0 120px;
+    font-family: 'Poppins';
+    background: #FCFCFD;
+    &__title {
+        margin-bottom: 64px;
+        font-family: 'DM Sans';
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: -0.01em;
+        color: $main-color;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        margin-bottom: 20px;
+        width: 256px;
+        height: 303px;
+        border-radius: 16px;
+        &_1 {
+            background: url(../img/hotBit/hotBit_1.webp) center center / cover no-repeat;
+        }
+        &_2 {
+            background: url(../img/hotBit/hotBit_2.webp) center center / cover no-repeat;
+        }
+        &_3 {
+            background: url(../img/hotBit/hotBit_1.webp) center center / cover no-repeat;
+        }
+        &_4 {
+            background: url(../img/hotBit/hotBit_4.webp) center center / cover no-repeat;
+        }
+    }
+    &__header {
+        margin-bottom: 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: $main-color;
+    }
+    &__btn {
+        width: 68px;
+        height: 26px;
+    }
+    &__body {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E6E8EC;
+    }
+    &__authors {
+        display: flex;
+    }
+    &__circle {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        &_1 {
+            background: url(../img/avatars/enrico/small/enrico_purpure_small.png) center center / cover no-repeat;
+        }
+        &_2 {
+            background: url(../img/avatars/enrico/small/enrico_yellow_small.jpg) center center / cover no-repeat;
+        }
+        &_3 {
+            background: url(../img/avatars/enrico/small/enrico_purpure_small.png) center center / cover no-repeat;
+        }
+    }
+    &__stock {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        color: $main-color;
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 167%;
+        color: $light-color;
+        strong {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 167%;
+            color: #353945;
+        }
+    }
+}
+
+.bold {
+
+}
+
+
+.hotBid__body {
+}
+.hotBid__authors {
+}
+.hotBid__circle_1 {
+}
+.hotBid__circle_2 {
+}
+.hotBid__circle_3 {
+}
+.hotBid__stock {
+}
+.hotBid__footer {
+}
+.hotBid__bid {
+}
+.hotBid__newBid {
+}
