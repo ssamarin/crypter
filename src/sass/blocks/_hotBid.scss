@@ -63,11 +63,13 @@
         width: 24px;
         height: 24px;
         border-radius: 50%;
+        border: 2px solid #FCFCFD;
         &_1 {
             background: url(../img/avatars/enrico/small/enrico_purpure_small.png) center center / cover no-repeat;
         }
         &_2 {
             background: url(../img/avatars/enrico/small/enrico_yellow_small.jpg) center center / cover no-repeat;
+            
         }
         &_3 {
             background: url(../img/avatars/enrico/small/enrico_purpure_small.png) center center / cover no-repeat;
