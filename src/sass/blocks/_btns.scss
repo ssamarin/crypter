@@ -53,7 +53,11 @@ button {
     line-height: 100%;
     text-transform: uppercase;
     border-radius: 4px;
+    transition: 0.7s all;
     border: 2px solid #E6E8EC;
-    background-color: #FCFCFD;
+    background-color: #F4F5F6;;
     color: $main-color;
+    &:hover {
+        box-shadow:0 4px 30px rgba(0,0,0,.3);      
+    }
 } 
