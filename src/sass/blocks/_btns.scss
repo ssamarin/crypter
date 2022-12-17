@@ -61,3 +61,21 @@ button {
         box-shadow:0 4px 30px rgba(0,0,0,.3);      
     }
 } 
+
+.discover__btn {
+    font-family: 'DM Sans';
+    font-size: 14px;
+    line-height: 114%;
+    background-color: #FCFCFD;
+    color: $light-color;
+        &_active {
+            max-width: 100px;
+            min-height: 28px;
+            border-radius: 100px;
+            font-family: 'DM Sans';
+            font-size: 14px;
+            line-height: 114%;
+            background: #353945;
+            color: #FCFCFD;
+    }
+}

@@ -61,4 +61,36 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     setClock('.total__timer', deadline);
+
+    // Discover 
+
+    const parentBtn = document.querySelector('.discover__btns'),
+          discoverBtn = document.querySelectorAll('.discover__btn');
+
+    function unactiveBtn( ) {
+        discoverBtn.forEach((item) => {
+            item.classList.remove('discover__btn_active');
+        });
+    }
+
+    function activeBtn(i = 0) {
+        discoverBtn[i].classList.add('discover__btn_active');
+    }
+
+    unactiveBtn();
+    activeBtn();
+
+    parentBtn.addEventListener('click', (event) => {
+        const target = event.target;
+
+        if (target && target.classList.contains('discover__btn')) {
+            discoverBtn.forEach((item, i) => {
+                if (target == item) {
+                    unactiveBtn();
+                    activeBtn(i);
+                }
+            });
+        }
+    });
 });
+
