@@ -1,0 +1,116 @@
+.discover {
+    padding: 128px 0;
+    &__title {
+        margin-bottom: 80px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: -0.01em;
+        color: $main-color;
+    }
+    &__header {
+        margin-bottom: 32px;
+        padding-bottom: 42px;
+        border-bottom: 1px solid #E6E8EC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__drop-down {
+        padding: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 180px;
+        height: 48px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 171%;
+        border-radius: 12px;
+        border: 2px solid #E6E8EC;
+        color: $main-color;
+    }
+    &__circle {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 2px solid #E6E8EC;   
+        background-color: #FCFCFD;
+    }
+    &__btns {
+        display: flex;
+        column-gap: 12px;
+    }
+    &__btn {
+        font-family: 'DM Sans';
+        font-size: 14px;
+        line-height: 114%;
+        background-color: #FCFCFD;
+        color: $light-color;
+    }
+    &__btn_active {
+        width: 83px;
+        height: 28px;
+        border-radius: 100px;
+        font-family: 'DM Sans';
+        font-size: 14px;
+        line-height: 114%;
+        background: #353945;
+        color: #FCFCFD;
+    }
+    &__filter {
+        width: 116px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 90px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        transition: 0.7s all;
+        background: $blue;
+        color: #FCFCFD;
+        &:hover {
+            background-color: rgba($blue, 0.8);
+        }
+    }
+    &__subheader {
+        margin-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+    }   
+    &__body {
+        margin-bottom: 32px;
+        display: flex;
+        gap: 31px;
+        flex-wrap: wrap;
+    }
+    &__footer {
+        display: flex;
+        justify-content: center;
+        &_btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+.subheader {
+    &__title {
+        margin-bottom: 12px;
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #B1B5C4;
+    }
+}
