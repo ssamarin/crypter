@@ -1,0 +1,39 @@
+.earn {
+    padding: 80px 0;
+    font-family: 'Poppins';
+    background-color: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__save {
+        margin-bottom: 12px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: $light-color;
+    }
+    &__title {
+        min-width: 481px;
+        margin-bottom: 20px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: $main-color;
+    }
+    &__descr {
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #777E91;
+    }
+    &__btn {
+        display: flex;
+        column-gap: 16px;
+    }
+}
