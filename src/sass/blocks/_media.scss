@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 862px;
+    }
+    .header {
+        &__menu {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+}
