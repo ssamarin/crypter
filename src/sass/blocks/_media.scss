@@ -7,8 +7,48 @@
             display: none;
         }
     }
+    .start {
+        padding-top: 112px;
+    }
+}
+
+.start {
+}
+.container {
+}
+.start__wrapper {
+}
+.start__descr {
+}
+.start__title {
+}
+.start__btn {
+}
+.btn__white {
 }
 
 @media (max-width: 576px) {
+    .container {
+        width: 311px;
+    }
+    .header {
+        &__wrapper {
+            display: none;
+        }
+        &__burger {
+            padding: 58px 0 34px;
+            // margin-top: 58px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .start {
+        padding-top: 64px;
+        &__title {
+            font-size: 32px;
+            line-height: 125%;
+        }
 
+    }
 }
