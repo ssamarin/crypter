@@ -10,26 +10,28 @@
     .start {
         padding-top: 112px;
     }
+    .promo {
+        padding: 112px 0;
+        &__wrapper {
+            column-gap: 32px;
+        }
+        &__title {
+            display: none;
+            &_hide {
+                margin-bottom: 20px;
+                display: block;
+            }
+        }
+    }
 }
 
-.start {
-}
-.container {
-}
-.start__wrapper {
-}
-.start__descr {
-}
-.start__title {
-}
-.start__btn {
-}
-.btn__white {
-}
+
 
 @media (max-width: 576px) {
     .container {
-        width: 311px;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
     }
     .header {
         &__wrapper {
@@ -44,11 +46,68 @@
         }
     }
     .start {
-        padding-top: 64px;
+        padding-top: 64px; 
         &__title {
             font-size: 32px;
             line-height: 125%;
         }
+    }
+    .promo {
+        padding: 112px 15px;
+        &__wrapper {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 32px;
+            justify-content: center;
+            align-items: center;
+        }
+        &__video img {
+            max-width: 100%;
+        }
+        &__info {
+            max-width: 100%;
+        }
+        &__people {
+            justify-content: flex-start;
+            column-gap: 33px;
+        }
+        &__title {
+            display: none;
+            &_hide {
+                margin-bottom: 20px;
+                max-width: 304px;
+                display: block;
+            }
+        }
+        &__total {
+            margin: 0 auto 40px;
+            width: 100%;
+            height: auto;
+        }
+        &__btns {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 8px;
+        }
+    }
+}
 
+@media (max-width: 420px)  {
+    .start {
+        &__title {
+            font-size: 30px;
+        }
+    }
+    .promo {
+        &__people {
+            justify-content: space-between;
+        }
+        &__total {
+            width: 100%;
+        }
+        &__btn {
+            max-width: 300px;
+        }
     }
 }
