@@ -1,6 +1,8 @@
 @media (max-width: 1024px) {
     .container {
+        margin: 0 auto;
         width: 862px;
+        overflow: hidden;
     }
     .header {
         &__menu {
@@ -20,6 +22,22 @@
             &_hide {
                 margin-bottom: 20px;
                 display: block;
+            }
+        }
+        &__people {
+            justify-content: start;
+            column-gap: 50px;
+        }
+        &__total {
+            max-width: 302px;
+            max-height: 296px;
+        }
+        &__btn {
+            max-width: 302px;
+        }
+        .total {
+            &__price {
+                font-size: 42px;
             }
         }
     }
