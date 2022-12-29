@@ -194,6 +194,9 @@
     }
     &__circle {
         position: relative;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
         &::after {
             content: "2";
             position: absolute;
@@ -212,27 +215,15 @@
         }
     }
     &__circle-1 {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
         background: url(../img/avatars/enrico/large/enrico_purpure.png) center center / cover no-repeat;
     }
     &__circle-2 {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
         background: url(../img/avatars/anita.png) center center / cover no-repeat;
     }
     &__circle-3 {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
         background: url(../img/avatars/enrico/large/enrico_pink.jpg) center center / cover no-repeat;
     }
     &__circle-4 {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
         background: url(../img/avatars/enrico/large/enrico_yellow.jpg) center center / cover no-repeat;
     }
 }

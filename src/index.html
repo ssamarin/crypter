@@ -133,7 +133,11 @@
                     <div class="store__wrapper">
                         <div class="store__big">
                             <div class="big__img">
-                                <img src="img/store/big/land.webp" alt="NFT">
+                                <picture>
+                                    <source media="(max-width: 650px)" srcset="img/store/big/land_mobile.webp">
+                                    <source media="(max-width: 1024px)" srcset="img/store/big/land_1024.webp">
+                                    <img src="img/store/big/land.webp" alt="NFT">
+                                </picture>
                             </div>
                             <div class="big__footer">
                                 <div class="big__author">
