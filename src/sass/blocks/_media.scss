@@ -29,11 +29,11 @@
             column-gap: 50px;
         }
         &__total {
-            max-width: 302px;
-            max-height: 296px;
+            width: 302px;
+            height: 296px;
         }
         &__btn {
-            max-width: 302px;
+            width: 302px;
         }
         .total {
             &__price {
@@ -132,6 +132,9 @@
             align-items: center;
             row-gap: 8px;
         }
+        &__btn {
+            width: 100%;
+        }
     }
 }
 
@@ -147,9 +150,6 @@
         }
         &__total {
             width: 100%;
-        }
-        &__btn {
-            max-width: 300px;
         }
     }
 }
