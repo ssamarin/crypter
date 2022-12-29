@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .container {
         width: 862px;
     }
@@ -21,6 +21,30 @@
                 margin-bottom: 20px;
                 display: block;
             }
+        }
+    }
+    .store {
+        &__wrapper {
+            flex-wrap: wrap;
+            row-gap: 64px;
+        }
+        &__library {
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .creators {
+        padding-bottom: 80px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__item {
+            border: none;
+        }
+        &__btn {
+            display: none;
         }
     }
 }
